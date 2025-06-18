@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lobster&family=Space+Grotesk:wght@300..700&display=swap');
+*{
+    margin: 0;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.702);
+    height: 100px;
+}
+header h3{
+    color: white;
+    text-align: left;
+    position:absolute;
+    margin-top: 1.3%;
+    margin-left: 7%;
+    display: none;
+}
+header img{
+    position: absolute;
+    left: 48%;
+    float: left;
+    border-radius: 10px;
+}
+nav{
+    background-color: rgba(91, 90, 90, 0.578);
+}
+nav ul{
+    font-family:'Space Grotesk', sans-serif;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 39%;
+}
+nav li{
+    float: left;
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    transition-duration: 0.2s;
+
+}
+nav a:hover{
+    background-color: rgba(0, 0, 0, 0.612);
+}
+body{
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    background-attachment: fixed;
+}
+aside{
+    padding: 2x0px;
+    width: 24%;
+    float: left;
+}
+#aside-title{
+    font-family: 'Lobster', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+#line1{
+    display: inline-block;
+    padding-bottom: 20px;
+}
+#line2{
+    display: inline-block;
+    padding-bottom: 20px;
+}
+#line3{
+    display: inline-block;
+    padding-bottom: 20px;
+}
+#lineelements{
+    float: left;
+    color: white;
+    padding-left: 40px;
+}
+#lineelements button{
+    width: 100px;
+    background-color: transparent;
+    border: none;
+    font-family: 'Lobster', sans-serif;
+    font-size: 20px;
+    color: white;
+    transition-duration: 0.1s;
+    
+}
+#lineelements button img{
+    width: 100%;
+    display: block;
+    padding-bottom: 10px;
+}
+#lineelements button:hover{
+    width: 120px;
+    border-color: rgb(80, 83, 79);
+    box-shadow: 0 0 100px 15px rgb(80, 83, 79);
+}
+section{
+    padding-top: 20px;
+    width: 49%;
+    float: left;
+}
+article{
+    padding: 20px;
+    width: 21%;
+    float: left;
+}
+footer{
+    padding: 20px;
+    float: left;
+}
+#slideshow{
+    width: fit-content;
+    height: auto;
+    overflow: hidden;
+}
+#slideshow img{
+    width: 100%;
+    height: auto;
+    display: none;
+    border-radius: 25px;
+    border: 10px;
+}
+#slideshow img.active{
+    display: block;
+}
+#ssbuttons{
+    padding-top: 10px;
+    padding-left: 44%;        }
+#ssbuttons button{
+    background-color: white;
+    border: 0px;
+    width: 40px;
+    border-radius: 50px;
+}
+#ssbuttons button img{
+    width: 30px;
+}
+#socials button{
+    float: left;
+    position: relative;
+    left: 29%;
+    margin: 10px;
+    background-color:black ;
+    border-color: lightblue;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    transition-duration: 0.1s;
+}
+#socials button img{
+    width: 15px;
+    
+}
+#instagram{
+    padding-top: 5px;
+}
+#twitter{
+    padding-top: 6px;
+    padding-left: 7.5px;
+}
+#linkedin{
+    padding-top: 4px;
+    padding-left: 8px;
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 2px;
+    background-color: white;
+    border : none;
+    border-radius: 10px;
+}
+#h4-links{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: wheat;
+}
+#socials button:hover{
+    width: 50px;
+    height: 50px;
+    border-color: rgb(100, 214, 51);
+    box-shadow: 0 0 100px 15px rgb(100, 214, 51);
+    
+}
+#article-p{
+    font-family: 'EB Garamound', sans-serif;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.586);
+    margin-left: 20px;
+    color: white;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+    transition-duration: 0.4s;
+}
+#article-p:hover{
+    background-color: rgba(128, 128, 128, 0.633);
+    color: black;
+}
